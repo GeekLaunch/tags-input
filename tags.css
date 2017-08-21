@@ -4,7 +4,11 @@
 
 .tags-input {
     border: 1px solid #333;
-    display: inline-block;
+    display: inline-flex;
+    flex-wrap: wrap;
+
+    /* Set this to whatever width you need */
+    width: 500px;
 }
 
 .tags-input .tag {
@@ -38,4 +42,5 @@
     border: 0;
     outline: 0;
     padding: 0.5em 0.1em;
+    flex-grow: 1;
 }
